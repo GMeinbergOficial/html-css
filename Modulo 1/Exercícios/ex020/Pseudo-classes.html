@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-classes</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Estilo base das caixas */
+    .caixa {
+      display: inline-block;
+      background-color: lightgray;
+      border: 1px solid black;
+
+      width: 200px;
+      height: 200px;
+
+      text-align: center;
+      line-height: 200px; /* centraliza vertical */
+
+      margin-right: 10px;
+    }
+
+    /* Pseudo-classe hover aplicada na classe */
+    .caixa:hover {
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Caixas de texto</h1>
+
+  <div class="caixa">01</div>
+  <div class="caixa">02</div>
+  <div class="caixa">03</div>
+
+</body>
+</html>
